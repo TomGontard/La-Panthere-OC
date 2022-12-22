@@ -825,6 +825,14 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+footer ul{
+    padding: 0;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
