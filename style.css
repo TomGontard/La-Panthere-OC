@@ -438,6 +438,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .mg-lg {
@@ -753,7 +755,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(130, 110, 75, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
