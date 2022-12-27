@@ -679,7 +679,13 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.15vw;
+    line-height: 1.75em;
+}
+
+strong {
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 .tight-width-whitespace {
@@ -707,24 +713,40 @@ p {
 }
 
 h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
-h3 {
-    font-size: 15px;
+    font-size: 1.2vw;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
 
+.bigger-paragraph {
+    font-size: 1.75vw;
+    line-height: 1.4em;
+}
+
 .med-width-whitespace {
-    max-width: 800px;
+    max-width: 90vw;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
+.med-width-whitespace-contact {
+    max-width: 90vw;
+    margin: auto auto auto auto;
+    box-shadow: 0px 0px 0px #000000;
+}
+
+.med-width-whitespace-space-upside{
+    max-width: 90vw;
+    margin: 3vw auto auto auto;
+    box-shadow: 0px 0px 0px #000000;
+}
+
 h1 {
+    color: #333333!important;
+}
+
+h3 {
     color: #333333!important;
 }
 
@@ -862,9 +884,23 @@ footer ul li{
     .navbar .nav {
         max-width: 80%
     }
+
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
+    p {
+        font-size: 1.75vw;
+    }
+
+    h2{
+        font-size: 2vw;
+    }
+
+    .bigger-paragraph{
+        font-size: 2vw;
+    }
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -1027,7 +1063,7 @@ footer ul li{
         margin-top: 20px;
     }
     .voffset-lg {
-        margin-top: 30px;
+        margin-top: 6vw;
     }
     form {
         padding: 5px;
@@ -1044,6 +1080,26 @@ footer ul li{
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+
+    h2{
+        font-size: 2.25vw;
+    }
+
+    .bigger-paragraph{
+        font-size: 2.25vw;
+    }
+
+    .tight-width-whitespace{
+        margin: 0px auto;
+    }
+
+    .tight-width-whitespace div{
+        margin-top : 5vw;
     }
 }
 
